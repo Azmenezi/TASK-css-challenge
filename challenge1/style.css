@@ -1,0 +1,23 @@
+/* @font-face {
+  font-family: myFirstFont;
+  src: url(../assets/fonts/PoorStory-Regular.ttf);
+} */
+body {
+  background-color: #1e0b36;
+}
+.s1_div {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.text_ {
+  margin: 10px;
+  text-align: center;
+  color: aliceblue;
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+}
