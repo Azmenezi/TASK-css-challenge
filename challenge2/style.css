@@ -12,11 +12,18 @@ body {
   height: 90vh;
 }
 .profile {
+  display: block;
+  overflow: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
   background-color: aliceblue;
   border-radius: 30px;
-  padding-top: 5%;
+  padding-top: 2%;
   height: 300px;
   width: 300px;
+}
+.profile::-webkit-scrollbar {
+  display: none;
 }
 
 img {
