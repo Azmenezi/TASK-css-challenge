@@ -1,11 +1,24 @@
 /* Add your code in each class */
 .container {
+  height: 300px;
+  width: 400px;
+  display: block;
+  overflow: scroll;
 }
 .head {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: wheat;
+  color: red;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 .row {
   /* .row is used in ./index.js not in the html filee */
+  background-color:black;
+  color: aliceblue;
 }
 
 /* This is a gift - Does not need editing */
